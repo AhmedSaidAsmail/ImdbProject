@@ -1,0 +1,91 @@
+.search-holder {
+    padding: 0px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.search-holder .form-group {
+    margin: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.search-result {
+    position: absolute;
+    top: calc(100% - 3px);
+    padding-top: 5px;
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px #828282, -2px 2px 5px #828282;
+    z-index: 1;
+    display: none;
+}
+
+.search-result a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-result a .row {
+    border-bottom: 1px solid #e6e6e6;
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all ease .3s;
+}
+
+.search-result a .row:hover {
+    background-color: #f8f1be;
+}
+
+.search-result :last-child .row {
+    border-bottom: none;
+}
+
+.search-result .row [class^=col-md] {
+    padding-left: 5px;
+}
+
+.search-result .thumb {
+    padding-left: 5px;
+
+}
+
+.search-result img {
+    width: 33px;
+
+}
+
+.search-result h3 {
+    margin: 0px;
+    font-size: 17px;
+    color: #136cb9;
+
+}
+
+.search-result h3 span.year {
+    position: relative;
+    color: #3f3f3f;
+    font-size: 15px;
+}
+
+.search-result .cast {
+    font-size: 13px;
+    display: block;
+}
+
+.rating {
+    position: absolute;
+    left: calc(100% + 30px);
+    width: 90px;
+    display: inline-block;
+}
+
+.rating .fas {
+    color: #e4bb24;
+}
+
+.rating .divided {
+    font-size: 11px;
+}
